@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-dice-roller",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "dice-roller — tabletop dice, coin flips and exact dice odds on the Pipeworx chance engine (shared/src/chance.ts; plan: docs/chance-packs-plan.md).",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-dice-roller": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "dice-roller"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-dice-roller.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/dice-roller",
   "pipeworx": {
-    "sourceHash": "v1-23bc6de9d81ad1b47679597a953950767e2663453c6a595ec1c30a1e2f10ac17",
-    "sourceCommit": "712a5e0171ea24483214329d0cd7efdfd9b80352"
+    "mode": "gateway",
+    "slug": "dice-roller",
+    "gatewaySlug": "dice-roller",
+    "sourceHash": "v1-051ff83020bd455b6ca0e9b8b497e88f7d255d9c8ebdecaaf0f6b71b5812dbf9",
+    "sourceCommit": "0b3faaa4d85299a961dd86dea75a0f0e1dad280c"
   }
 }

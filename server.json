@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/dice-roller",
   "title": "Dice Roller",
   "description": "dice-roller — tabletop dice, coin flips and exact dice odds on the Pipeworx chance engine…",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/dice-roller",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-dice-roller",
