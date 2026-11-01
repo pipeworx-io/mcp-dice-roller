@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-dice-roller",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "dice-roller — tabletop dice, coin flips and exact dice odds on the Pipeworx chance engine (shared/src/chance.ts; plan: docs/chance-packs-plan.md).",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "dice-roller",
     "gatewaySlug": "dice-roller",
-    "sourceHash": "v1-051ff83020bd455b6ca0e9b8b497e88f7d255d9c8ebdecaaf0f6b71b5812dbf9",
-    "sourceCommit": "0b3faaa4d85299a961dd86dea75a0f0e1dad280c"
+    "sourceHash": "v1-fababa0fb21b24959347f6fef1887fa82368dc530218c9fafb85d6cdbfd81de7",
+    "sourceCommit": "e707a4bb6209f432984c0a83bf64b3138130db89"
   }
 }
